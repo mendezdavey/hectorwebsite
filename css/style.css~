@@ -1,0 +1,8 @@
+body {
+    background-image: url("paper.gif");
+    background-color: #cccccc;
+} 
+.jumbotron{
+    background-image: url("../pictures/austin_small.jpg")
+    color: white;
+}
