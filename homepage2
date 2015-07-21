@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>H&L Painting | Home</title>
+    <title>homepage2.html</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -31,18 +31,19 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#">H&L Painting</a>
+          <p></p>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-
-            </li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Home</a></li>
             <li><a href="#">About Us</a></li>
             <li class="active"><a href="#">Services <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Gallery of Work</a></li>          
-	 </ul>
+            <li><a href="#">Gallery of Work</a></li>   
+          </ul>
+        
+            <li class="phone-number"><strong><p>Call Now at: (512) 660-2583</p></strong></li>
+      
+     
         </div><!--/.nav-collapse -->
       </div>
     </nav>

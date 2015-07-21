@@ -1,8 +1,43 @@
 body {
-    background-image: url("paper.gif");
+    
     background-color: #cccccc;
-} 
+}
+.navbar-brand{
+  color: purple;
+}
+.phone-number{
+  color: black;
+  padding-top: 15px;
+  padding-left: 15px;
+  font-size: 1.5em;
+}
+.jumbotron{
+    background-image: url("../pictures/austin1440.jpg");
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/*For width smaller than 400px: */
 .jumbotron{
     background-image: url("../pictures/austin_small.jpg");
     color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    margin-top: 30px;
+   
+  
+}
+/*For devices 400px and larger: */
+@media only screen and (min-width: 480px){
+  .jumbotron{
+    background-image: url("../pictures/austin1440.jpg");
+    background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+    background-position: center;    
+  }
+  
 }
