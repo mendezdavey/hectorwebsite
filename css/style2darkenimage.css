@@ -74,22 +74,15 @@ h1 {
     background-repeat: no-repeat;
     color: white;
     background-attachment: scroll;
-    
   }
   h1 {
-     padding-top: 10px;
+     padding-top: 50px;
   }
   
 }
 /*Medium Desktop*/
 @media only screen and (min-width: 992px){
-  .jumbotron{
-    background-image: url("../pictures/austin970.jpg");
-    background-repeat: no-repeat;
-    color: white;
-    background-attachment: scroll;
-    height: 600px;
-  }
+
     h1 {
         padding-top: 300px;
     }
@@ -98,30 +91,20 @@ h1 {
 
 /*Large Desktop*/
 @media only screen and (min-width: 1200px){
-  .jumbotron{
-    background-image: url("../pictures/austin1170.jpg");
-    background-repeat: no-repeat;
-    color: white;
-    background-attachment: scroll;
-    height: 600px;
-  }
+
   h1 {
       padding-top: 350px;
     }
-
-  
-}
-/*  .darken-image {
+  .darken-image {
     background-image:
       linear-gradient(
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
       ), 
     url("../pictures/austin1170.jpg"); 
-    background-attachment: relative;
-    background-repeat: no-repeat;
+    background-attachment: scroll;
     color: white;
-    height: 600px;  
-    margin-left: auto; 
-    margin-right: auto;
-  }*/
+    height: 600px;   
+  }
+  
+}

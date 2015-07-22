@@ -1,0 +1,90 @@
+body {
+    background-color: #ffb200;
+    background-color: #cccccc;
+    background-color: #788fae;
+}
+#test{
+  background-color: white;
+}
+.jumbotron h1 {
+    padding-top: 300px;
+    color: white;
+}
+/*
+.callout-background{
+  background-color: white;
+  opacity: 0.8;
+  border: 1px solid yellow;
+  border-radius: 25px;
+  width: 500px;
+}
+*/
+.navbar-brand{
+  color: purple;
+}
+.phone-number{
+  color: black;
+  padding-top: 15px;
+  padding-left: 15px;
+  font-size: 1.1em;
+  opacity: 1.0;
+}
+.jumbotron{
+    background-image: url("../pictures/austin_test.jpg");
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-position: bottom;
+    background-color: #788fae;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    height: 600px;
+    
+}
+
+/*For width smaller than 400px: */
+.jumbotron{
+    background-image: url("../pictures/austin_small.jpg");
+    color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    margin-top: 60px;
+   
+  
+}
+/*For devices 400px and larger: */
+@media only screen and (min-width: 992px){
+  .jumbotron{
+    background-image: url("../pictures/austin970.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+        
+  }
+  
+}
+/*Medium Desktop*/
+@media only screen and (max-width: 1200px){
+  .jumbotron{
+    background-image: url("../pictures/austin1170.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+        
+  }
+  
+}
+
+/*Large Desktop*/
+@media only screen and (min-width: 1200px){
+  .jumbotron{
+    background-image: url("../pictures/austin1170.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+        
+  }
+  
+}
