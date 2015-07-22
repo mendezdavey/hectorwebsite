@@ -3,19 +3,79 @@ body {
     background-color: #cccccc;
     background-color: #788fae;
 }
+/* --------------------------------------
+   banners and promotions
+   -------------------------------------- */
+#slogan-banner{
+  margin-top: 50px;
+  background-color: #424242;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+#advertising-banner{
+  background-color: #699d41;
+  color: white;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+h1 {
+  font-weight: bold;
+  margin:0;
+}
+h2{
+  color: #8a0000;
+}
+.bold-text{
+   font-weight: bold;
+}
+.hector-info{
+  padding-left: 15px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+/* --------------------------------------
+   Jumbotron
+   -------------------------------------- */
 .jumbotron .container {
   position: relative;
-  
-  
-  
-}
-#test{
-  background-color: white;
 }
 .jumbotron h1 {
 
     color: white;
 }
+.jumbotron{
+    background-image:
+      linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+      ), 
+    url("../pictures/austin1170.jpg");
+    margin-bottom: 0;
+    background-color: #788fae;
+    
+  
+    
+}
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+.navbar-brand{
+  font-weight: bold;
+  
+}
+.navbar-nav a{
+  font-weight: bold;
+  color: black;
+}
+#test{
+  background-color: white;
+}
+
 /*
 .callout-background{
   background-color: white;
@@ -35,20 +95,10 @@ body {
   font-size: 1.1em;
   opacity: 1.0;
 }
-.jumbotron{
-    background-image:
-      linear-gradient(
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-      ), 
-    url("../pictures/austin1170.jpg");
-    margin-bottom: 0;
-    background-color: #788fae;
-    
-  
-    
-}
 
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
 /*For width smaller than 400px: */
 .jumbotron{
     background-image: url("../pictures/austin750.jpg");
@@ -63,10 +113,18 @@ body {
    
   
 }
-h1 {
-
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+    .jumbotron{
+        text-align: center;
+        
+    }
+    #test{
+        text-align: center;
+    }
+   
 }
-/*For devices 400px and larger: */
+
 /*Table Landscape phone*/
 @media only screen and (min-width: 768px){
   .jumbotron{
@@ -79,6 +137,8 @@ h1 {
   h1 {
      padding-top: 10px;
   }
+
+
   
 }
 /*Medium Desktop*/
@@ -91,7 +151,7 @@ h1 {
     height: 600px;
   }
     h1 {
-        padding-top: 300px;
+     
     }
   
 }
@@ -106,7 +166,7 @@ h1 {
     height: 600px;
   }
   h1 {
-      padding-top: 350px;
+      
     }
 
   
