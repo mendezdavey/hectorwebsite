@@ -1,7 +1,13 @@
-body {
+﻿body {
     background-color: #ffb200;
     background-color: #cccccc;
     background-color: #788fae;
+    background-color: #FFFF99;
+    background: url("../pictures/danny-tile.png") center;
+    background-size: cover;
+    background-attachment: fixed;
+   ;
+
 }
 /* --------------------------------------
    banners and promotions
@@ -46,7 +52,7 @@ h2{
 }
 .jumbotron h1 {
 
-    color: white;
+    color: black;
 }
 .jumbotron{
     background-image:
@@ -56,10 +62,16 @@ h2{
       ), 
     url("../pictures/austin1170.jpg");
     margin-bottom: 0;
-    background-color: #788fae;
+    background: url("../pictures/danny-tile.png");
+ 
     
-  
-    
+}
+.opaque-background{
+	background-color:rgba(255,255,255,0.5);
+	
+}
+.jumbotron p{
+	font-weight: bold;
 }
 /* --------------------------------------
    Navbar
@@ -109,17 +121,13 @@ h2{
    -------------------------------------- */
 /*For width smaller than 400px: */
 .jumbotron{
-    background-image: url("../pictures/austin750.jpg");
-    color: white;
+    background-image: url("../pictures/paint750.jpg");
+    color: black;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: top center;
     height: 400px;
     padding-top: 50px;
-    
-    
-   
-  
 }
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
@@ -130,20 +138,28 @@ h2{
     #test{
         text-align: center;
     }
-   
+
 }
 
 /*Table Landscape phone*/
 @media only screen and (min-width: 768px){
   .jumbotron{
-    background-image: url("../pictures/austin750.jpg");
+    background-image: url("../pictures/paint750.jpg");
     background-repeat: no-repeat;
-    color: white;
+    color: black;
     background-attachment: scroll;
     
   }
   h1 {
      padding-top: 10px;
+  }
+  .jumbotron p{
+		font-weight: bold;
+		color: black;
+		margin-top: 320px;
+		padding: 5px;
+				
+		
   }
 
 
@@ -152,30 +168,45 @@ h2{
 /*Medium Desktop*/
 @media only screen and (min-width: 992px){
   .jumbotron{
-    background-image: url("../pictures/austin970.jpg");
+    background-image: url("../pictures/paint970.jpg");
     background-repeat: no-repeat;
-    color: white;
+    color: black;
     background-attachment: scroll;
     height: 600px;
   }
-    h1 {
-     
-    }
-  
+  .jumbotron p{
+		font-weight: bold;
+		color: black;
+		margin-top: 320px;
+		padding: 5px;
+				
+		
+  }
+
 }
 
 /*Large Desktop*/
 @media only screen and (min-width: 1200px){
   .jumbotron{
-    background-image: url("../pictures/austin1170.jpg");
+    background-image: url("../pictures/paint1170.jpg");
     background-repeat: no-repeat;
-    color: white;
+    color: black;
     background-attachment: scroll;
     height: 600px;
   }
   h1 {
-      
+    color: black;
+    
     }
+  .jumbotron p{
+		font-weight: bold;
+		color: black;
+		margin-top: 320px;
+		padding: 5px;
+				
+		
+  }
+
 
   
 }
