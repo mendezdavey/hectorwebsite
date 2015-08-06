@@ -1,16 +1,14 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
-
+    <title>Welcome To HNL Painters</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap.css">
-
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -20,7 +18,7 @@
   </head>
   <body>
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" id="topnavbar">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -29,63 +27,88 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">H&L Painting</a>
+            
+          <a class="navbar-brand" href="#"><img src="pictures/HouseLogoDone.png" alt="Mountain View" style="max-width:55px; margin: -15px; margin-left: 30px; margin-bottom: -20px;">H&L Painters</a>
+          <p></p>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-
-            </li>
+            <li class="active"><a href="#">Home</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li class="active"><a href="#">Services <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Gallery of Work</a></li>          
-	 </ul>
+            <li class="phone-number"><strong><p><span class="glyphicon glyphicon-earphone"></span> <a href="tel:5124686244">(512) 468-6244</a></p></strong></li>
+      
+        </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
     <!-- Main jumbotron for a primary marketing message or call to action -->
+    
+    <!---<div class="container">
+        <div class="row" id="slogan-banner">
+            <h1>Give your house a new look today with H&L Painters!</h1>
+            <h1>Call For a Free Estimate <span style="color: #ffaf00">(512) 468-6244</span></h1>
+        </div>-->
     <div class="jumbotron">
       <div class="container">
-        <h1>Hector & Luis Painting</h1>
-	<ul>
-	  <li><p>Interior/Exterior Painting</p></li>	
-	  <li><p>Tape and Float</p></li>	
-	  <li><p>Texture application</p></li>
-	  <li><p>Popcorn celing removal</p></li>	
-	
-	</ul>
-        <p>Call us at (512) 660-2583</p>
-	<p>Free Estimates!</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-      </div>
-    </div>
-
+        <div class="opaque-background">
+        <h1>H&L Painters of Austin Texas</h1>
+        </div><!-- end opaque background-->
+        
+        <div class="opaque-background">
+        <p>Give your house a new look today with H&L Painters
+        <br>Proudly painting the Austin area since 2008
+        <br />FREE Estimate. <span class="glyphicon glyphicon-earphone"></span><a href="tel:5124686244"> (512) 468-6244</a></p>
+        
+		</div><!-- opaque background -->
+      </div>    
+    </div><!-- end jumbotron-->
+    
     <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
+      <div class="row" id="advertising-banner">
+          <span><h1>SAVE 10% - For a limited time all callers receive an extra 10% off!* Expires: 07/27/15</h1></span>
       </div>
+    </div><!-- end container--> 
+    <div class="container">
+      <div class="row" id="test">
+        <div class="col-md-8">
+            <h2><strong>Welcome to H&L Painters</strong></h2>
+            <p>H&L Painters is commited to provide the most competitive, detailed, and courteous service to all of our customers.</p>
+            <p>Call us for a free estimate, and give your house a new look today!</p>
+            <hr />
+            <h2><strong>Our Services</strong></h2>
+            <p><span class="glyphicon glyphicon-ok"></span> Exterior and Interior Painting</p>
+            <p><span class="glyphicon glyphicon-ok"></span> Tape & Float</p>
+            <p><span class="glyphicon glyphicon-ok"></span> Dry Wall</p>
+            <p><span class="glyphicon glyphicon-ok"></span> Making Decks</p>
+            <p><span class="glyphicon glyphicon-ok"></span> Fence Painting</p>
+            <p><span class="glyphicon glyphicon-ok"></span> Friendly & Respectful Customer Experience</p>
+
+            <hr />
+
+
+        </div><!-- end col-md-8 -->
+        <div class="col-md-4">
+
+          <h2><strong>Serving the Austin Area</strong></h2>
+            <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d211702.86431410915!2d-97.76111536076056!3d30.31265863186945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b599a0cc032f%3A0x5d9b464bd469d57a!2sAustin%2C+TX!5e0!3m2!1sen!2sus!4v1437530113227" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+            <div class="caption">
+                <h3>H&L Painters of Austin Texas</h3>
+                <p>Master Painter: Hector Luis</p>
+                <p><span class="glyphicon glyphicon-earphone"></span><a href="tel:5124686244"> (512) 468-6244</a></p>
+                <p>Customer Service: David Mendez</p>
+                <p><span class="glyphicon glyphicon-earphone"></span><a href="tel:5124686244"> (512) 660-2583</a></p>
+                <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:mendezdavey@gmail.com">    mendezdavey@gmail.com</a></p>
+                
+            </div>
+        </div>
+      </div><!-- end row-->
 
       <hr>
 
       <footer>
-        <p>&copy; Company 2014</p>
+        <p>&copy; H&L Painters 2015</p>
       </footer>
     </div> <!-- /container -->	
 
@@ -93,5 +116,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/style.js"></script>
   </body>
 </html>
